@@ -12,4 +12,24 @@ void main() {
   } else {
     print("masukkan bilangan yang habis di bagi 3");
   }
+  // bilangan yang hbis di bagi 5 = 5,15,25,35,45,55,65,75,85,95 :)
+  stdout.write("masukkan bilangan yang habis di bagi 5 : ");
+  var bil1 = stdin.readLineSync();
+  //merubah string  menjadi int
+  var angka1 = int.parse('$bil1');
+
+  if (angka1 % 5 == 0) {
+    print("World");
+  } else {
+    print("masukkan bilangan yang habis di bagi 5");
+  }
+
+  stdout.write("masukkan bilangan yang habis dibagi 3 dan 5 : ");
+  var bil2 = stdin.readLineSync();
+  //merubah string  menjadi int
+  var angka2 = int.parse('$bil2');
+
+  if (angka2 % 3 == 0 && angka2 % 5 == 0) {
+    print("Hello World ");
+  }
 }
