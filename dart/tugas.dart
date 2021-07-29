@@ -7,7 +7,7 @@ void main() {
   //merubah string  menjadi int
   var angka = int.parse('$bil');
 
-  if (angka % 3 == 0 && angka % 2 == 1) {
+  if (angka % 3 == 0) {
     print("Hello");
   } else {
     print("masukkan bilangan yang habis di bagi 3");
